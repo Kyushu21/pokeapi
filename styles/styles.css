@@ -1,0 +1,55 @@
+body {
+  background-image: url(https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  padding-top: 20px;
+}
+
+.pokemon-card {
+  margin-bottom: 20px;
+}
+
+.pokemon-card .card {
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.pokemon-card .card:hover {
+  transform: translateY(-5px);
+}
+
+.pokemon-card .card-body {
+  padding: 20px;
+}
+
+.pokemon-card .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.pokemon-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.pokemon-card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.pokemon-card .pokemon-type {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.pokemon-card .pokemon-ability {
+  color: #28a745;
+}
+
+.pokemon-card .pokemon-experience {
+  color: #6c757d;
+}
